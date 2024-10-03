@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cart-service
-        image: your-dockerhub-username/cart-service:latest
+        image: admin029/cart-service:latest
         ports:
         - containerPort: 8080
 ---
